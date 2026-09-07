@@ -113,7 +113,7 @@ ml-flood-water-detection-sentinel2/
 ├── Code/
 │   └── swat_flood_ndwi_random_forest.js
 ├── Results/
-│   └── gee_console_output.txt
+│   └── output.txt
 ├── Figures/
 │   ├── Figure_A_PostFlood_RGB.png
 │   ├── Figure_B_NDWI_Water.png
