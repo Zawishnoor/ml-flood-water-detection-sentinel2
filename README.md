@@ -4,6 +4,10 @@ Flood-water detection from Sentinel-2 imagery using NDWI thresholding and Random
 
 ### Comparing NDWI Thresholding and Random Forest Classification in Swat, Pakistan
 
+# Machine Learning-Based Flood Water Detection from Sentinel-2 Optical Satellite Imagery
+
+### Comparing NDWI Thresholding and Random Forest Classification in Swat, Pakistan
+
 This project investigates flood-water detection from Sentinel-2 optical satellite imagery using Google Earth Engine (GEE). A conventional Normalized Difference Water Index (NDWI) approach is compared with a multifeature Random Forest (RF) classifier for mapping surface water in the Swat River region of Pakistan.
 
 The study uses pre-flood and post-flood Sentinel-2 imagery from **23 June 2025** and **1 July 2025**, respectively.
@@ -115,7 +119,8 @@ ml-flood-water-detection-sentinel2/
 ├── code/
 │   └── swat_flood_ndwi_random_forest.js
 ├── results/
-│   └── output.txt
+│   └── gee_console_output.txt
+├── figures/
 │   ├── Figure_A_PostFlood_RGB.png
 │   ├── Figure_B_NDWI_Water.png
 │   ├── Figure_C_RF_Water.png
