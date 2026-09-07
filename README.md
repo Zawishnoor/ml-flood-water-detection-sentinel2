@@ -1,9 +1,3 @@
-# ml-flood-water-detection-sentinel2-
-Flood-water detection from Sentinel-2 imagery using NDWI thresholding and Random Forest classification in Google Earth Engine, with a case study of Swat, Pakistan.
-# Machine Learning-Based Flood Water Detection from Sentinel-2 Optical Satellite Imagery
-
-### Comparing NDWI Thresholding and Random Forest Classification in Swat, Pakistan
-
 # Machine Learning-Based Flood Water Detection from Sentinel-2 Optical Satellite Imagery
 
 ### Comparing NDWI Thresholding and Random Forest Classification in Swat, Pakistan
@@ -113,8 +107,6 @@ For polygon-level validation, the reference regions were separated into independ
 The original geometries are maintained as Geometry Imports in the Google Earth Engine project and are not embedded in the JavaScript source file in this repository. Users reproducing the workflow should create representative water and non-water reference polygons appropriate to their own study area.
 
 ## Repository Structure
-
-```text
 ml-flood-water-detection-sentinel2/
 ├── code/
 │   └── swat_flood_ndwi_random_forest.js
