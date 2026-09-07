@@ -107,15 +107,18 @@ For polygon-level validation, the reference regions were separated into independ
 The original geometries are maintained as Geometry Imports in the Google Earth Engine project and are not embedded in the JavaScript source file in this repository. Users reproducing the workflow should create representative water and non-water reference polygons appropriate to their own study area.
 
 ## Repository Structure
+
+```text
 ml-flood-water-detection-sentinel2/
-├── code/
+├── Code/
 │   └── swat_flood_ndwi_random_forest.js
-├── results/
+├── Results/
 │   └── gee_console_output.txt
-├── figures/
+├── Figures/
 │   ├── Figure_A_PostFlood_RGB.png
 │   ├── Figure_B_NDWI_Water.png
 │   ├── Figure_C_RF_Water.png
 │   └── Figure_D_NDWI_RF_Disagreement.png
 ├── README.md
 └── LICENSE
+```
