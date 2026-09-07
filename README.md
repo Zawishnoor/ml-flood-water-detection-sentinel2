@@ -31,7 +31,7 @@ The workflow consisted of:
 
 1. Sentinel-2 image acquisition and preprocessing
 2. Cloud and cloud-shadow masking
-3. Pre- and post-flood NDWI calculation
+3. Pre and post flood NDWI calculation
 4. Binary water classification using NDWI
 5. NDWI threshold sensitivity analysis
 6. Detection of potential newly inundated areas
